@@ -12,7 +12,9 @@ const app = {
       return Promise.reject(`${response.status}: ${response.statusText}`)
     } catch (err) {
 
+      console.err('testing' , err)
       return Promise.reject("The fetch request failed..",err)
+      
     }
   },
 

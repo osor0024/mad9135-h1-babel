@@ -37,9 +37,12 @@ var app = {
             case 13:
               _context.prev = 13;
               _context.t0 = _context['catch'](0);
+
+
+              console.err('testing', _context.t0);
               return _context.abrupt('return', Promise.reject("The fetch request failed..", _context.t0));
 
-            case 16:
+            case 17:
             case 'end':
               return _context.stop();
           }
