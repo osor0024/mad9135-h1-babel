@@ -5,6 +5,7 @@ const app = {
       const response = await fetch('https://swapi.co/api/films/')
       if (response.ok) {
        
+        console.log("It's ok")
         //object assignment destructuring here
          const { results } = await response.json()
          return results
