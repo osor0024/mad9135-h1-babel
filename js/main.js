@@ -32,7 +32,7 @@ var app = {
               return _context.abrupt('return', results);
 
             case 10:
-              return _context.abrupt('return', Promise.reject(response.status + ': ' + response.statusText));
+              return _context.abrupt('return', []);
 
             case 13:
               _context.prev = 13;
@@ -40,9 +40,9 @@ var app = {
 
 
               console.err('testing', _context.t0);
-              return _context.abrupt('return', Promise.reject("The fetch request failed..", _context.t0));
+              //return Promise.reject("The fetch request failed..",err)
 
-            case 17:
+            case 16:
             case 'end':
               return _context.stop();
           }

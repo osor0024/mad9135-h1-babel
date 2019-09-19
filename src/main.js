@@ -9,11 +9,12 @@ const app = {
          const { results } = await response.json()
          return results
       }
-      return Promise.reject(`${response.status}: ${response.statusText}`)
+      return []
+      //return Promise.reject(`${response.status}: ${response.statusText}`)
     } catch (err) {
 
       console.err('testing' , err)
-      return Promise.reject("The fetch request failed..",err)
+      //return Promise.reject("The fetch request failed..",err)
       
     }
   },
