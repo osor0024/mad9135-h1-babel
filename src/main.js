@@ -1,3 +1,5 @@
+import "@babel/polyfill";
+
 const app = {
 
   async getFilms () {
